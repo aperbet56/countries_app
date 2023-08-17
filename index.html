@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chercheurs de pays</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loader">
+      <span class="letter">C</span>
+      <span class="letter">H</span>
+      <span class="letter">A</span>
+      <span class="letter">R</span>
+      <span class="letter">G</span>
+      <span class="letter">E</span>
+      <span class="letter">M</span>
+      <span class="letter">E</span>
+      <span class="letter">N</span>
+      <span class="letter">T</span>
+    </div>
+
+    <header>
+      <h1>Chercheur de pays</h1>
+    </header>
+    <main class="main__content">
+      <section class="input__control">
+        <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Rechercher un pays..."
+        />
+      </section>
+      <h2 class="main__title">Résultats présent dans la base de données</h2>
+      <section class="table">
+        <h3 class="table__title">Nom</h3>
+        <h3 class="table__title">Capitale</h3>
+        <h3 class="table__title">Nombre d'habitants</h3>
+      </section>
+      <section class="table__result"></section>
+      <div class="btn">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </main>
+    <footer>
+      <span>Site créé par aperbet56</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
